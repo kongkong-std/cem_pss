@@ -3,6 +3,9 @@
  * main function
  */
 
+static const char help[] = "hello, hhhh\
+			    test test test"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
