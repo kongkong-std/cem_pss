@@ -1,0 +1,17 @@
+//==========info==========//
+/*
+ * date: Sept 8th, 2022
+ * author: kongkong
+ */
+
+1. source_file directory contains
+    1.1. source code file
+
+2. include_file directory contains
+    2.1. head file in programming files
+
+3. linear_system directory contains
+    3.1. linear system for matrix A and right-hand side RHS
+
+4. build directory contains
+    4.1 Makefile
