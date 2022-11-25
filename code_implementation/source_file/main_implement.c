@@ -4,7 +4,7 @@
  */
 
 static const char help[] = "hello, hhhh\
-			    test test test"
+			    test test test";
 
 #include <stdio.h>
 #include <stdlib.h>
