@@ -15,7 +15,7 @@ OBJECT = $(PATH_SOURCE)/main_implement.o \
 	 $(PATH_SOURCE)/gmres_restart_iteration.o
 
 matrix_split_solver: $(OBJECT)
-	$(CC) -lm -o matrix_split_solver $(OBJECT)
+	$(CC) -o matrix_split_solver $(OBJECT) -lm
 
 $(PATH_SOURCE)/main_implement.o: $(PATH_SOURCE)/main_implement.c \
 		$(PATH_INCLUDE)/main_implement.h
